@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Travela.DataAccessLayer\Travela.DataAccessLayer.csproj" />
+  </ItemGroup>
+
 </Project>
