@@ -35,5 +35,12 @@ namespace Travela.WebApi.Controllers
             _destinationService.TDelete(id);
             return Ok("Rota başarıyla silindi");
         }
+
+        [HttpPut]
+        public IActionResult UpdateDestination(Destination destination)
+        {
+            _destinationService.TUpdate(destination);
+            return Ok("Güncelleme yapıldı");
+        }
     }
 }
