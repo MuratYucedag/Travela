@@ -24,6 +24,12 @@ namespace Travela.BusinessLayer.Concrete
         {
             return _categoryDal.GetById(id);
         }
+
+        public int TGetCategoryCount()
+        {
+            return _categoryDal.GetCategoryCount();
+        }
+
         public List<Category> TGetListAll()
         {
             return _categoryDal.GetListAll();
